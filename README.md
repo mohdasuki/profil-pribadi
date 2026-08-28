@@ -1,16 +1,52 @@
-# React + Vite
+# Profil Pribadi Moh. Dasuki
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website portofolio profesional Moh. Dasuki, M.Kom — dosen Informatika, web developer, serta peneliti AI dan Natural Language Processing di Universitas Muhammadiyah Jember.
 
-Currently, two official plugins are available:
+## Teknologi
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19
+- Vite 8
+- CSS responsif
+- ESLint
 
-## React Compiler
+## Menjalankan proyek
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Pastikan Node.js sudah terpasang, kemudian jalankan:
 
-## Expanding the ESLint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Vite akan menampilkan alamat lokal untuk membuka website di browser.
+
+## Perintah tersedia
+
+```bash
+npm run dev      # Menjalankan development server
+npm run lint     # Memeriksa kualitas kode
+npm run build    # Membuat production build
+npm run preview  # Melihat production build secara lokal
+```
+
+## Struktur proyek
+
+```text
+src/
+├── assets/       # Foto dan aset visual
+├── components/   # Komponen antarmuka yang digunakan ulang
+├── data/         # Identitas, tautan, keahlian, dan data proyek
+├── sections/     # Bagian utama halaman portofolio
+├── App.jsx       # Komposisi halaman
+├── App.css       # Gaya komponen dan halaman
+├── index.css     # Reset dan gaya global
+└── main.jsx      # Entry point React
+```
+
+Untuk memperbarui profil, tautan akademik, keahlian, atau proyek, edit `src/data/portfolio.js`.
+
+## Pemilik
+
+Moh. Dasuki, M.Kom  
+Universitas Muhammadiyah Jember  
+[GitHub](https://github.com/mohdasuki)

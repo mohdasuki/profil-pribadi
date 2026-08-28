@@ -1,0 +1,6 @@
+import profilImg from '../assets/profil.jpg'
+import { profile } from '../data/portfolio'
+
+export default function Hero() {
+  return <section id="home" className="hero section-wrap"><div className="hero-content"><div className="hero-text"><p className="eyebrow"><span /> Halo, saya</p><h1>{profile.name}<span>.</span></h1><h2>{profile.role}</h2><p className="hero-description">Dosen Informatika di {profile.institution} yang berfokus pada pendidikan, pengembangan web, kecerdasan buatan, dan riset pemrosesan bahasa alami.</p><div className="hero-buttons"><a href="#projects" className="btn btn-primary">Jelajahi karya <span aria-hidden="true">↗</span></a><a href="#contact" className="btn btn-secondary">Hubungi saya</a></div><div className="hero-meta" aria-label="Bidang utama"><div><strong>Web</strong><span>Development</span></div><div><strong>AI &amp; NLP</strong><span>Research</span></div><div><strong>Teaching</strong><span>Education</span></div></div></div><div className="hero-visual"><div className="photo-frame"><span className="photo-accent" /><img src={profilImg} alt={`Foto profil ${profile.fullName}`} className="profile-image" /><div className="availability"><span /> Terbuka untuk kolaborasi</div></div></div></div><a className="scroll-hint" href="#about" aria-label="Gulir ke bagian tentang"><span /> Gulir untuk mengenal saya</a></section>
+}
