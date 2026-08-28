@@ -8,11 +8,11 @@ export const skills = [
 ]
 
 export const academicProfiles = [
-  { name: 'Google Scholar', id: 'mk_UaEcAAAAJ', label: 'Publikasi & sitasi', url: 'https://scholar.google.com/citations?user=mk_UaEcAAAAJ&hl=id' },
-  { name: 'SINTA', id: '6664138', label: 'Science and Technology Index', url: 'https://sinta.kemdiktisaintek.go.id/authors/profile/6664138' },
-  { name: 'Scopus', id: '59747672700', label: 'Author profile', url: 'https://www.scopus.com/authid/detail.uri?authorId=59747672700' },
-  { name: 'ORCID', id: '0000-0003-2747-0750', label: 'Researcher identifier', url: 'https://orcid.org/0000-0003-2747-0750' },
-  { name: 'GitHub', id: '@mohdasuki', label: 'Kode & proyek', url: 'https://github.com/mohdasuki' },
+  { name: 'Google Scholar', icon: 'scholar', id: 'mk_UaEcAAAAJ', label: 'Publikasi & sitasi', url: 'https://scholar.google.com/citations?user=mk_UaEcAAAAJ&hl=id' },
+  { name: 'SINTA', icon: 'sinta', id: '6664138', label: 'Science and Technology Index', url: 'https://sinta.kemdiktisaintek.go.id/authors/profile/6664138' },
+  { name: 'Scopus', icon: 'scopus', id: '59747672700', label: 'Author profile', url: 'https://www.scopus.com/authid/detail.uri?authorId=59747672700' },
+  { name: 'ORCID', icon: 'orcid', id: '0000-0003-2747-0750', label: 'Researcher identifier', url: 'https://orcid.org/0000-0003-2747-0750' },
+  { name: 'GitHub', icon: 'github', id: '@mohdasuki', label: 'Kode & proyek', url: 'https://github.com/mohdasuki' },
 ]
 
 export const projects = [
