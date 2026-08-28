@@ -53,8 +53,8 @@ nav { height:78px; }
 .academic-logo { display:grid; place-items:center; width:52px; height:52px; border-radius:14px; background:#fff; border:1px solid var(--line); font-size:1.7rem; box-shadow:0 8px 20px rgba(18,32,51,.07); transition:transform .25s ease; }
 .profile-card:hover .academic-logo { transform:rotate(-4deg) scale(1.06); border-color:rgba(255,255,255,.5); }
 .academic-logo-scholar { color:#4285f4; }.academic-logo-scopus { color:#e9711c; }.academic-logo-orcid { color:#a6ce39; }.academic-logo-github { color:#181717; }
-.academic-logo-sinta { color:#fff; background:linear-gradient(135deg,#1688c8,#0a557f); }
-.sinta-mark { font:800 1.35rem Manrope,sans-serif; }
+.academic-logo-sinta { padding:5px; background:#fff; }
+.academic-logo-sinta img { width:100%; height:100%; display:block; object-fit:contain; }
 .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
 .profile-card p { margin-bottom:8px; color:var(--muted); font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; }.profile-card:hover p,.profile-card:hover .profile-id { color:rgba(255,255,255,.78); }
 .profile-card h3 { margin-bottom:12px; font-size:1.35rem; }.profile-id { color:var(--muted); font-size:.78rem; overflow-wrap:anywhere; }
