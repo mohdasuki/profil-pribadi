@@ -50,3 +50,14 @@ Untuk memperbarui profil, tautan akademik, keahlian, atau proyek, edit `src/data
 Moh. Dasuki, M.Kom  
 Universitas Muhammadiyah Jember  
 [GitHub](https://github.com/mohdasuki)
+
+## Deployment Netlify
+
+Repository ini menyertakan `netlify.toml`, sehingga pengaturan build dibaca otomatis oleh Netlify:
+
+- Production branch: `main`
+- Build command: `npm run build`
+- Publish directory: `dist`
+- Node.js: versi 22
+
+Untuk deployment pertama, pilih **Add new project → Import an existing project** di Netlify, hubungkan GitHub, kemudian pilih repository `mohdasuki/profil-pribadi`. Setelah terhubung, setiap push ke branch `main` akan memicu build dan deployment baru secara otomatis.
